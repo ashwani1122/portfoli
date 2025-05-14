@@ -27,14 +27,6 @@ const words = [
   { text: "Designs", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
 ];
-
-const counterItems = [
-  { value: 15, suffix: "+", label: "Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
-];
-
 const logoIconsList = [
   {
     imgPath: "/images/logos/company-logo-1.png",
@@ -96,7 +88,7 @@ const techStackImgs = [
   },
   {
     name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    imgPath: "https://www.drupal.org/files/project-images/nextjs-drupal.jpg",
   },
   {
     name: "Backend Developer",
@@ -119,12 +111,12 @@ const techStackIcons = [
     scale: 1,
     rotation: [0, 0, 0],
   },
-  {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
+  // {
+  //   name: "Next.js Developer",
+  //   modelPath: "/models/python-transformed.glb",
+  //   scale: 0.8,
+  //   rotation: [0, 0, 0],
+  // },
   {
     name: "Backend Developer",
     modelPath: "/models/node-transformed.glb",
@@ -267,7 +259,6 @@ export {
   words,
   abilities,
   logoIconsList,
-  counterItems,
   expCards,
   expLogos,
   testimonials,

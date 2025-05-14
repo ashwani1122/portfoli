@@ -1,7 +1,5 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-
-import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
@@ -70,8 +68,6 @@ const Hero = () => {
           </div>
         </figure>
       </div>
-
-      <AnimatedCounter />
     </section>
   );
 };
