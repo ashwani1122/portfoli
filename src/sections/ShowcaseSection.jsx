@@ -49,7 +49,7 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="https://s3-alpha.figma.com/hub/file/2878684483/resized/1200x720/cce2f7c9-1754-460b-b702-f98ff79cbcec-cover.png" alt="Ryde App Interface" />
             </div>
             <div className="text-content">
               <h2>
@@ -67,7 +67,7 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
+                  src="https://www.notion.so/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/2r7yT60rZzfz3dJwdl1EUn/70bd495b554812329f3d6adbbd1968c8/second-brain-by-rosidssoy-rosidssoy-desktop.png"
                   alt="Library Management Platform"
                 />
               </div>
@@ -76,7 +76,7 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="https://th.bing.com/th/id/OIP.eCkoSEsNSYQ51ZzmSQ19ggHaFj?w=244&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="YC Directory App" />
               </div>
               <h2>YC Directory - A Startup Showcase App</h2>
             </div>

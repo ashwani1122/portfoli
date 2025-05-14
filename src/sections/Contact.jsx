@@ -3,7 +3,6 @@ import emailjs from "@emailjs/browser";
 
 import TitleHeader from "../components/TitleHeader";
 import ContactExperience from "../components/models/contact/ContactExperience";
-
 const Contact = () => {
   const formRef = useRef(null);
   const [loading, setLoading] = useState(false);
@@ -13,7 +12,7 @@ const Contact = () => {
     message: "",
   });
 
-  const handleChange = (e) => {
+  const handleChange =  (e) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };
